@@ -160,7 +160,7 @@ body{
 
 
 
-
+/* <!-- social-info-section-start --> */
 
 .social-info{
     
@@ -181,4 +181,30 @@ body{
     text-align: center;
     width: 20%;
     padding-left: 10%;
+}
+
+/* <!-- social-info-section-end --> */
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer span{
+    
+    color: orangered;
+}
+
+.footer h1{
+    
+    color: WHITE;
+}
+.footer p{
+    color: white;
+}
+.footer-content{
+    padding: 49px;
 }
