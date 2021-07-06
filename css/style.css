@@ -51,7 +51,7 @@ body{
 
 
 
-
+/* <!-- about-me-section-start --> */
 .about-me-section{
     display: flex;
     margin-top: 30px;
@@ -101,3 +101,59 @@ body{
     margin-left: 38%;
     margin-top: 26px;
 }
+/* <!-- about-me-section-end --> */
+
+
+
+/* <!-- recipy-section-start --> */
+.recipy-section{
+    margin-top: 50px;
+}
+
+
+
+.recipies-items{
+    display: flex;
+    width: 100%;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    padding: 20px 20;
+    padding: 70px 20px;
+}
+.one-by-one-recipy-list{
+    width: 20%;
+    height: 470px;
+    padding: 20px 20px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+          margin-left: 8%;
+}
+
+.one-by-one-recipy-list img{
+
+    width: 100%;
+}
+
+#order-now-button{
+    margin-left: 62px;
+}
+
+.recipy-section h1{
+    
+    text-align: center;color: #555b57;
+}
+
+.recipy-section p{
+    text-align: center;color: #555b57;
+}
+
+#recipy-content-header{
+    font-size: 40px;
+}
+
+
+/* <!-- recipy-section-end --> */
