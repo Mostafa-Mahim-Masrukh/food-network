@@ -1,11 +1,12 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    padding: 0px 30px;
+    padding: 0px 0px;
 }
 /* <!-- header-section-start --> */
 .header-section{
     display: flex;
+    padding: 0px 30px;
 }
 
 .header-half-part{
@@ -27,9 +28,11 @@ body{
 
 }
 .header-half-part span{
-    color: orange;
+    color: orangered;
+    font-size: 90px;
 }
 .header-half-part p{
+    
     color: #555b57;
 }
 .button{
@@ -44,3 +47,57 @@ body{
     margin-top:70px;
 }
 /* <!-- header-section-end --> */
+
+
+
+
+
+.about-me-section{
+    display: flex;
+    margin-top: 30px;
+   background-image: url('/1.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    height: 500px;
+    width: 100%;
+
+
+}
+
+
+
+.about-me-half-part{
+    width: 45%;
+    height: 500px;
+}
+
+.about-me-half-part img{
+    height: 395px;
+    width: 65%;
+    padding-left: 286px;
+    width: 270px;
+    height: 190p;
+    padding-top: 105px;
+}
+
+#about-me-contents {
+    margin-top: 60px;
+}
+
+#about-me-contents h1{
+    text-align: center;
+    font-size: 50px;
+    color: #555b57;
+}
+
+
+#about-me-contents p{
+    color: #555b57;
+    text-align: center;
+}
+
+#contact-us-button{
+    margin-left: 38%;
+    margin-top: 26px;
+}
